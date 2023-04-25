@@ -167,7 +167,7 @@ header div {
 .register-page {
   display: flex;
   height: 100vh;
-  background-image: url('../public/images/Group_232.png');
+  background-image: url('../public/images/Group_233.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -224,3 +224,88 @@ header div {
 .register-right button:hover {
   background-color: #ee8a3b;
 }
+
+/* HomePage styles */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../public/images/Group_234.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.home-page header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.home-page header .search-bar {
+  width: 200px;
+  padding: 0.5rem;
+}
+
+.home-page header .icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.galleries {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 60%;
+}
+
+.gallery {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.media-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.explore-now {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.explore-now button {
+  padding: 0.5rem 1rem;
+  background-color: #f7a046;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.explore-now button:hover {
+  background-color: #ee8a3b;
+}
+
